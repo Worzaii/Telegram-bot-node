@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bots",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "DEBUG=\"node-telegram-bot-api:*\" node src/index.ts",
+    "getMe": "node src/getMe.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-telegram-bot-api": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "typescript": "^6.0.3"
+  },
+  "private": true
+}
