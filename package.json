@@ -5,17 +5,20 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "DEBUG=\"node-telegram-bot-api:*\" node src/index.ts",
+    "dev": "node --watch src/index.ts",
     "getMe": "node src/getMe.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "dotenv": "^17.4.2",
-    "node-telegram-bot-api": "^2.1.0"
+    "dotenv": "^18.0.5",
+    "mysql2": "^3.14.4",
+    "node-telegram-bot-api": "^2.1.0",
+    "sequelize": "^6.37.8"
   },
   "devDependencies": {
-    "@types/node": "^22.20.2",
-    "typescript": "^6.0.3"
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2"
   },
   "private": true
 }
