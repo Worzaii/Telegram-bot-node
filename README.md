@@ -16,6 +16,7 @@ MYSQL_USER=telegram_bot
 MYSQL_PASSWORD=change-me
 MYSQL_HOST=127.0.0.1
 MYSQL_PORT=3306
+MYSQL_DIALECT=mysql
 ```
 
 3. Install dependencies with `npm install`, then start with `npm run dev`.

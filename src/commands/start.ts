@@ -10,7 +10,7 @@ export function registerStartCommand(bot: Bot): void {
         }
 
         if (ctx.match !== "verify") {
-            await ctx.reply(`Welcome! To verify for a protected group, open this link: ${verificationUrl}`);
+            await ctx.reply(`Greetings! I'm a testbot without much functionality as of right now!`);
             return;
         }
 
